@@ -15,7 +15,7 @@ MMatrix::MMatrix(const MMatrix & other)
     for(int i=0; i<NSIZE ;i++){
         arr[i] = new double[NSIZE];
         for(int j = 0; j< NSIZE; j++)
-            arr[i][j] = other.arr[i][j];
+            arr[i][j] = other.arr[i][j]; //ikk
     }
 }
 
