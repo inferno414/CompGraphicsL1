@@ -10,7 +10,7 @@ Widget::Widget(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Widget)
 {
-    ui->setupUi(this);
+    ui->setupUi(this); //yyy
     setMouseTracking(true);
     A=10;
     D=30;
