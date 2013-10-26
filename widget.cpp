@@ -17,7 +17,7 @@ Widget::Widget(QWidget *parent) :
     E=0;
     R=3;
     dt=0.01;
-    ui->horizontalSlider->setValue(A);
+    ui->horizontalSlider->setValue(A);//sd
     ui->horizontalSlider_2->setValue(D);
     ui->horizontalSlider_4->setValue(R);
 }
